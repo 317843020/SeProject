@@ -20,6 +20,9 @@ public class Login_Admin extends HttpServlet {
 		// TODO Auto-generated method stub
 		request.getRequestDispatcher("/WEB-INF/jsp/showUser.jsp").forward(request,response);
 		
+		System.out.println("fuckfuck");
+		
+		
 		System.out.println(request.getContextPath());
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
