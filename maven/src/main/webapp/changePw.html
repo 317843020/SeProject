@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/student.js"></script>
+<!--     <script>
+        var tiurl="timu.json";
+        $(document).ready(function(){
+            $.get(tiurl,function (test){
+                for(i=0;i<test.ti.length;i++){
+                    var t= "<li"+" "+"class='nav-third1'>"+
+                            "<a"+" "+"class='nav-third2'"+" "+"href='test.html?choice="+test.ti[i].choice+"&judge="+test.ti[i].judge+"'>"+
+                            "<span"+" "+"class='nav-third3'>"+test.ti[i].timu+"</span>"+
+                            "</a>"+
+                            "</li>";
+                    $(".testnumber").append(t);
+                }
+            })
+        })
+    </script> -->
+    <title>在线考试</title>
+</head>
+<body>
+<header class="h0">
+    <img class="h1-1" src="image/student.png" width="25" height="25" />
+    <span class="h1-2"></span>
+    <a class="h1-3" href="loign.html">注销</a>
+</header>
+<div class="wrapper">
+    <div class="main-nav-bg"></div>
+    <nav class="main-nav">
+        <ul class="nav-main">
+            <li class="nav-first1">
+                <a class="nav-first2" href="#">
+                    <span class="nav-first3">修改密码</span>
+                </a>
+            </li>
+            <li class="nav-second1">
+                <a class="nav-second2" href="query.html">
+                    <span class="nav-second3">查询成绩</span>
+                </a>
+            </li>
+            <li class="nav-second1">
+                <a class="nav-second2" href="#">
+                    <span class="nav-second3">考试科目</span>
+                </a>
+                <ul class="testnumber">
+
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="pw-st0">
+            <form  name="" class="pw-st2" method="post" action="#">
+                <ol class="pw-3-0">
+                    <div class="pw-3-1">
+                        <div class="pw-3-2">
+                            <li class="pw-3-3"><span class="pw-3-4">原密码：</span></li>
+                            <li class="pw-3-5"><input name="" class="pw-3-6" name="originalPw" type="password"></li>
+                        </div>
+                    </div>
+                    <div class="pw-3-1">
+                        <div class="pw-3-2">
+                            <li class="pw-3-3"><span class="pw-3-4">新密码：</span></li>
+                            <li class="pw-3-5"><input name="" class="pw-3-6" name="newPw" type="password"></li>
+                        </div>
+                    </div>
+                    <div class="pw-3-1">
+                        <div class="pw-3-2">
+                            <li class="pw-3-3"><span class="pw-3-4">确认密码：</span></li>
+                            <li class="pw-3-5"><input name="" class="pw-3-6" name="repeatPw" type="password"></li>
+                        </div>
+                    </div>
+
+                    <div class="pw-3-7">
+                        <li class="pw-3-8"><input class="pw-3-9" type="submit" value="提交">
+                    </div>
+
+                </ol>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

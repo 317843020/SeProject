@@ -1,0 +1,14 @@
+{
+  "ti": [
+    {
+      "timu": "数学",
+      "choice": "http://localhost:8080/maven/Getxuanpaper?kemu=数学",
+      "judge": "http://localhost:8080/maven/GetPanpaper?kemu=数学"
+    },
+    {
+      "timu": "语文",
+      "choice": "http://localhost:8080/maven/Getxuanpaper?kemu=语文",
+      "judge": "http://localhost:8080/maven/Getxuanpaper?kemu=语文"
+    }
+  ]
+}
